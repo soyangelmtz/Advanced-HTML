@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase HTML Avanzado</title>
+    <style>   /*  <<---- Concatenar diferentes etiquetas HTML*/
+        body{
+            background-color: bisque;
+            font-family: helvetica;
+        }
+        table, th, td{
+            border: 2px solid  black;
+            border-radius: 4px;
+            padding: 3px;
+        }
+        thead{
+            color:black;
+            background-color: gray;
+        }
+
+        tbody{
+            color: black;
+        }
+
+        tfoot{
+            color: green;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h3> Elemento <i>thead, tbody y tfoot</i> en una tabla</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
